@@ -55,8 +55,11 @@ def count_elements (array)
 
   array.each do |key,value|
     if result_array.values.inlude?(value)
-      result_array[key]
+    end
+
     result_array << {key => value, :count = >1}
+  end
+  result_array
 
 end
 
