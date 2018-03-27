@@ -131,3 +131,8 @@ end
 
 # #organize_schools
 #   organizes the schools by location (FAILED - 4)
+def organize_schools (schools)
+
+end
+
+
