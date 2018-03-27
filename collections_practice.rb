@@ -120,7 +120,9 @@ end
 # #find_cool
 #   find all cool hashes (FAILED - 3)
 def find_cool(cool)
-  
+
+  cool
+
 
 
 end
