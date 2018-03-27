@@ -49,7 +49,7 @@ end
 
 
 #count_elements
-  count how many times something appears in an array (FAILED - 1)
+#  count how many times something appears in an array (FAILED - 1)
 def count_elements (array)
   result_array = []
 
