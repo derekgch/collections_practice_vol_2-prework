@@ -28,7 +28,7 @@ end
 def first_wa(array)
 
   array.each do |word|
-    return word if word.start_with?('wa')
+    return word if word.start_with?("wa")
   end
 
 end
