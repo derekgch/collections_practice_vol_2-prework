@@ -45,5 +45,23 @@ def remove_non_strings (array)
     end
   end
   temp
+end
+
+
+#count_elements
+  count how many times something appears in an array (FAILED - 1)
+def count_elements (array)
+  result_array = []
+
+  array.each do |key,value|
+    result_array << {key => value}
 
 end
+
+  
+#merge_data
+  combines two nested data structures into one (FAILED - 2)
+#find_cool
+  find all cool hashes (FAILED - 3)
+#organize_schools
+  organizes the schools by location (FAILED - 4)
