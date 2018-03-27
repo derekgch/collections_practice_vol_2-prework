@@ -53,8 +53,8 @@ end
 def count_elements (array)
   result_array = []
 
-  array.each do |key,value|
-    if result_array.values.inlude?(value)
+  array.each do |data|
+    if result_array.values.inlude?(data.values)
     end
 
     result_array << {key => value, :count = >1}
