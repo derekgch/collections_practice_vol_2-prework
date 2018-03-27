@@ -132,7 +132,7 @@ end
 # #organize_schools
 #   organizes the schools by location (FAILED - 4)
 def organize_schools (schools)
-  ans = []
+  ans = {}
   schools.each do |key,data|
 
   end
