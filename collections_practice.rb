@@ -25,5 +25,14 @@ end
 
 #   #first_wa
 #     Return the first element that begins with the letters 'wa' (FAILED - 4)
+def first_wa(array)
+
+  array.each do |word|
+    has_a << word if word.starts_with?('wa')
+  end
+  has_a
+end
+
+
 #   #remove_non_strings
 #     remove anything that's not a string from an array (FAILED - 5)
