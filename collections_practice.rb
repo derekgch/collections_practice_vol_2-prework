@@ -54,7 +54,7 @@ def count_elements (array)
   result_array = []
 
   array.each do |data|
-  if  result_array.inlcude?(data)
+  if  result_array.include?(data)
     result_array.each do |k|
       if k[:name] == data[:name]
          k[:count] +=1
