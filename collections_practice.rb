@@ -105,7 +105,7 @@ def merge_data(k,v)
   merged = []
   k.each do |name|
     v.each do |data|
-      puts data.keys + name.values
+      puts "keys #{data.keys} + #{name.values}""
       if data.keys == name.values
 
         temp = name.value.merge(data.value)
