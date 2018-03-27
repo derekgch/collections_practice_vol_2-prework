@@ -9,7 +9,7 @@ def begins_with_r(tools)
     counter +=1
   end
 
-  counter == data.size ? true : false
+  counter+1 == data.size ? true : false
 
 end
 #   #contain_a
