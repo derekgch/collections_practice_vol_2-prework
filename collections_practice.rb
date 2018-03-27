@@ -13,6 +13,16 @@ def begins_with_r(tools)
 end
 #   #contain_a
 #     return all elements that contain the letter 'a' (FAILED - 3)
+def contain_a(array)
+  has_a = ""
+
+  array.each do |word|
+    has_a << word if word.include?('a')
+  end
+  has_a
+end
+
+
 #   #first_wa
 #     Return the first element that begins with the letters 'wa' (FAILED - 4)
 #   #remove_non_strings
