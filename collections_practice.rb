@@ -110,6 +110,7 @@ def merge_data(k,v)
         temp = data[name[:first_name]]
         puts name
         name.merge(temp)
+        puts name
         merged << temp
 
     end #v
