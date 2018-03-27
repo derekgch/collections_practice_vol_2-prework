@@ -108,9 +108,7 @@ def merge_data(k,v)
     # puts "keys #{data.keys} + #{name[:first_name]}"
     # puts data[name[:first_name]]
         temp = data[name[:first_name]]
-
         merged << name.merge(temp)
-
     end #v
   end #k
   merged
