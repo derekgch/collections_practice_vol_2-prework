@@ -54,11 +54,13 @@ def count_elements (array)
   result_array = []
 
   array.each do |key,value|
-    result_array << {key => value}
+    if result_array.values.inlude?(value)
+      result_array[key]
+    result_array << {key => value, :count = >1}
 
 end
 
-  
+
 #merge_data
   combines two nested data structures into one (FAILED - 2)
 #find_cool
