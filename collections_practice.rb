@@ -69,9 +69,12 @@ def count_elements (array)
   result_array
 end
 
-
 # #merge_data
 #   combines two nested data structures into one (FAILED - 2)
+def merge_data(k,v)
+
+end
+
 # #find_cool
 #   find all cool hashes (FAILED - 3)
 # #organize_schools
