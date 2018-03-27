@@ -28,9 +28,9 @@ end
 def first_wa(array)
 
   array.each do |word|
-    has_a << word if word.starts_with?('wa')
+    return word if word.starts_with?('wa')
   end
-  has_a
+
 end
 
 
