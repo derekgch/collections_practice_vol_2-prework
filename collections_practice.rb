@@ -40,7 +40,7 @@ end
 def remove_non_strings (array)
   array.each do |data|
     if data.class != String
-      array = array -data
+      array.delete(data)
     end
   end
   array
