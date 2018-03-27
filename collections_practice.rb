@@ -5,7 +5,7 @@
 def begins_with_r(tools)
   counter = 0
   tools.each do |data|
-    data[0] == 'r'
+    data[0].downcase == 'r'
     counter +=1
   end
 
