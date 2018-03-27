@@ -65,8 +65,7 @@ def count_elements (array)
       data[:count] = 1
       result_array << data
     end
-
-end
+  end
   result_array
 end
 
