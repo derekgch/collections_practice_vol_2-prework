@@ -69,32 +69,32 @@ def count_elements (array)
   result_array
 end
 
-keys =
-  [
-         {
-          :first_name => "blake"
-      },
-         {
-          :first_name => "ashley"
-      }
-  ]
-
-
-data =
-  [
-         {
-           "blake" => {
-              :awesomeness => 10,
-                   :height => "74",
-                :last_name => "johnson"
-          },
-          "ashley" => {
-              :awesomeness => 9,
-                   :height => 60,
-                :last_name => "dubs"
-          }
-      }
-  ]
+# keys =
+#   [
+#          {
+#           :first_name => "blake"
+#       },
+#          {
+#           :first_name => "ashley"
+#       }
+#   ]
+# 
+# 
+# data =
+#   [
+#          {
+#            "blake" => {
+#               :awesomeness => 10,
+#                    :height => "74",
+#                 :last_name => "johnson"
+#           },
+#           "ashley" => {
+#               :awesomeness => 9,
+#                    :height => 60,
+#                 :last_name => "dubs"
+#           }
+#       }
+#   ]
 
 
 
@@ -105,10 +105,10 @@ def merge_data(k,v)
   merged = []
   k.each do |name|
     v.each do |data|
-    puts "keys #{data.keys} + #{name[:first_name]}"
-    puts data[name[:first_name]]
+    # puts "keys #{data.keys} + #{name[:first_name]}"
+    # puts data[name[:first_name]]
         temp = data[name[:first_name]]
-        puts name
+
         merged << name.merge(temp)
 
     end #v
@@ -116,7 +116,7 @@ def merge_data(k,v)
   merged
 end
 
-puts merge_data(keys,data)
+# puts merge_data(keys,data)
 
 
 # #find_cool
