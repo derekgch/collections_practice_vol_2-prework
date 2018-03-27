@@ -69,6 +69,36 @@ def count_elements (array)
   result_array
 end
 
+let(:keys) {
+  [
+         {
+          :first_name => "blake"
+      },
+         {
+          :first_name => "ashley"
+      }
+  ]
+}
+
+let(:data) {
+  [
+         {
+           "blake" => {
+              :awesomeness => 10,
+                   :height => "74",
+                :last_name => "johnson"
+          },
+          "ashley" => {
+              :awesomeness => 9,
+                   :height => 60,
+                :last_name => "dubs"
+          }
+      }
+  ]
+}
+
+
+
 # #merge_data
 #   combines two nested data structures into one (FAILED - 2)
 def merge_data(k,v)
@@ -84,6 +114,7 @@ def merge_data(k,v)
   merged
 end
 
+puts merge_data(keys,data)
 # #find_cool
 #   find all cool hashes (FAILED - 3)
 
