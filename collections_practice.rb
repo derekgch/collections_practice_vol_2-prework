@@ -82,7 +82,7 @@ def merge_data(k,v)
 
     end #v
   end #k
-
+  merged
 end
 
 # #find_cool
