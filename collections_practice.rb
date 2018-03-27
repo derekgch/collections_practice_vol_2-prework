@@ -57,7 +57,7 @@ def count_elements (array)
     if result_array.values.inlude?(data.values)
     end
 
-    result_array << {key => value, :count = >1}
+    result_array << {data, :count = >1}
   end
   result_array
 
