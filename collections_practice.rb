@@ -136,12 +136,11 @@ def organize_schools (schools)
   schools.each do |key,data|
     if ans.keys.include?(data[:location])
       ans[data[:location]] << key
-    else   
+    else
       ans[data[:location]] = []
       ans[data[:location]] << key
-      
-    end    
-
+    end
   end #schools
+  ans
 
 end
