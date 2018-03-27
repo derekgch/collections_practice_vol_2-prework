@@ -61,10 +61,11 @@ def count_elements (array)
          flag =1
       end
     end
-  else
-    data[:count] = 1
-    result_array << data
-  end
+    if(flag == 0)
+      data[:count] = 1
+      result_array << data
+    end
+
 end
   result_array
 end
