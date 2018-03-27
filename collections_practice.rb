@@ -29,7 +29,7 @@ def first_wa(array)
 
   array.each do |word|
     temp = word.to_s
-    return word if word.start_with?("wa")
+    return temp if temp.start_with?("wa")
   end
 
 end
