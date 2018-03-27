@@ -76,11 +76,12 @@ def merge_data(k,v)
   k.each do |name|
     v.each do |data|
       if data.key == name.value
+        temp = name.value.merge(data.value)
       end #if
 
     end #v
   end #k
-        
+
 end
 
 # #find_cool
