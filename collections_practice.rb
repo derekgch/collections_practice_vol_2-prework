@@ -38,11 +38,12 @@ end
 #   #remove_non_strings
 #     remove anything that's not a string from an array (FAILED - 5)
 def remove_non_strings (array)
+  temp = []
   array.each do |data|
-    if data.class != String
-      array.delete(data)
+    if data.class == String
+      temp << data
     end
   end
-  array
+  temp
 
 end
