@@ -69,7 +69,7 @@ def count_elements (array)
   result_array
 end
 
-let(:keys) {
+keys =
   [
          {
           :first_name => "blake"
@@ -80,7 +80,7 @@ let(:keys) {
   ]
 }
 
-let(:data) {
+data =
   [
          {
            "blake" => {
@@ -115,6 +115,7 @@ def merge_data(k,v)
 end
 
 puts merge_data(keys,data)
+
 # #find_cool
 #   find all cool hashes (FAILED - 3)
 
