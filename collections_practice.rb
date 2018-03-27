@@ -57,7 +57,7 @@ def count_elements (array)
     if result_array.values.inlude?(data.values)
     end
     temp = {:count =>1 }
-    result_array << data.merge_data(temp)
+    result_array << data.merge(temp)
   end
   result_array
 end
