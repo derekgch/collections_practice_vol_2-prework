@@ -72,10 +72,15 @@ end
 # #merge_data
 #   combines two nested data structures into one (FAILED - 2)
 def merge_data(k,v)
+  k.each do |name|
+    value.each do |data|
+      if data.key == name[:first_name]
 
 end
 
 # #find_cool
 #   find all cool hashes (FAILED - 3)
+
 # #organize_schools
 #   organizes the schools by location (FAILED - 4)
+
