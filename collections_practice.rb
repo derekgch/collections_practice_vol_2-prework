@@ -115,6 +115,7 @@ def merge_data(k,v)
 end
 
 puts merge_data(keys,data)
+puts "s"
 
 # #find_cool
 #   find all cool hashes (FAILED - 3)
