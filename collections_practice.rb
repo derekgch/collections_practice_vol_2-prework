@@ -79,7 +79,6 @@ def merge_data(k,v)
         temp = name.value.merge(data.value)
         merged << temp
       end #if
-
     end #v
   end #k
   merged
