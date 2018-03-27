@@ -119,6 +119,11 @@ end
 
 # #find_cool
 #   find all cool hashes (FAILED - 3)
+def find_cool
+
+end
+
+
 
 # #organize_schools
 #   organizes the schools by location (FAILED - 4)
