@@ -77,6 +77,7 @@ def merge_data(k,v)
     v.each do |data|
       if data.key == name.value
         temp = name.value.merge(data.value)
+        merged << temp
       end #if
 
     end #v
