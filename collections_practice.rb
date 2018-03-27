@@ -60,13 +60,12 @@ def count_elements (array)
     result_array << data.merge(temp)
   end
   result_array
-
 end
 
 
-#merge_data
-  combines two nested data structures into one (FAILED - 2)
-#find_cool
-  find all cool hashes (FAILED - 3)
-#organize_schools
-  organizes the schools by location (FAILED - 4)
+# #merge_data
+#   combines two nested data structures into one (FAILED - 2)
+# #find_cool
+#   find all cool hashes (FAILED - 3)
+# #organize_schools
+#   organizes the schools by location (FAILED - 4)
