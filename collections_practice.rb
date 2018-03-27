@@ -8,7 +8,7 @@ def begins_with_r(tools)
     counter +=1 if data[0].downcase == 'r'
   end
 
-  counter+1 == data.size ? true : false
+  counter == data.size ? true : false
 
 end
 #   #contain_a
